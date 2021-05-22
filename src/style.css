@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.navIcon span {
+.firstLine, .secondLine, .thirdLine {
   display: block;
   position: absolute;
   height: 9px;
@@ -45,7 +45,7 @@
   top: 36px;
 }
 
-.navIcon.open .firstLine {
+.open .firstLine {
   top: 18px;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -53,12 +53,12 @@
   transform: rotate(135deg);
 }
 
-.navIcon.open .secondLine {
+.open .secondLine {
   opacity: 0;
   left: -60px;
 }
 
-.navIcon.open .thirdLine {
+.open .thirdLine {
   top: 18px;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
